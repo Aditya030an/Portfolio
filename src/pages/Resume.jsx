@@ -68,8 +68,12 @@ const Resume = () => {
                 <li>CSS</li>
                 <li>JavaScript</li>
                 <li>React.js</li>
+                <li>Next.js</li>
                 <li>Node.js</li>
                 <li>Express.js</li>
+                <li>JWT</li>
+                <li>Authorization & Authentication</li>
+                <li>Postman</li>
                 <li>MongoDB</li>
                 <li>Tailwind CSS</li>
                 <li>Version Control</li>

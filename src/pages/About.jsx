@@ -56,14 +56,14 @@ const About = ({ title }) => {
             Here's who I am & what I do
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <button
+            {/* <button
               className="px-7 lg:px-9 py-2 text-base font-semibold text-white bg-blue-600 border-2 border-solid hover:text-black hover:bg-white hover:border-blue-600 transition-all ease-in-out duration-700 rounded-3xl cursor-pointer"
               onClick={() => {
                 navigate("/resume");
               }}
             >
               Resume
-            </button>
+            </button> */}
             <button
               className="px-6 lg:px-7 py-2 text-base font-semibold text-black bg-white rounded-3xl border-2 border-black hover:text-white hover:bg-blue-600 hover:border-blue-500 transition-all ease-in-out duration-700 cursor-pointer"
               onClick={() => {

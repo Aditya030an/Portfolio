@@ -4,10 +4,19 @@ import img1 from "../assets/project1img.png";
 import img2 from "../assets/project2img.png";
 import img3 from "../assets/project3img.png";
 import img4 from "../assets/project4img.png";
+import img5 from "../assets/project5img.png";
 
 const projects = [
   {
     id: 1,
+    title: "Kaarigar & Co",
+    date: "02/2025 - 03/2025",
+    desc: "Designed and developed Kaarigar & Co., a refined digital platform celebrating India’s timeless craftsmanship. The website beautifully blends storytelling and design to showcase authentic handmade creations and artisan journeys. Focused on delivering an elegant, immersive, and culturally rich user experience that connects tradition with modern aesthetics.",
+    link: "https://www.kaarigarandco.com",
+    image: img5,
+  },
+  {
+    id: 2,
     title: "E-Commerce Store User Side",
     date: "12/2024 - 01/2025",
     desc: "Developed a responsive e-commerce platform using React.js, TailwindCSS, and Vercel. Integrated Stripe for secure payments. User end supports product browsing, seamless shopping, and checkout.",
@@ -15,7 +24,7 @@ const projects = [
     image: img1,
   },
   {
-    id: 2,
+    id: 3,
     title: "E-Commerce Store Admin Side",
     date: "01/2025 - 02/2025",
     desc: "Admin panel for managing inventory and orders. Built with React.js, TailwindCSS, and Vercel. Secure login for admins to track sales and product listings.",
@@ -23,7 +32,7 @@ const projects = [
     image: img2,
   },
   {
-    id: 3,
+    id: 4,
     title: "AI Trip Planner",
     date: "12/2024-12/2024",
     desc: "AI-powered trip planner that generates personalized itineraries based on user preferences. Built using React, Node.js, MongoDB, and Tailwind CSS.",
@@ -31,13 +40,14 @@ const projects = [
     image: img3,
   },
   {
-    id: 4,
+    id: 5,
     title: "Social Service",
     date: "09/2024 - 10/2024",
     desc: "Contributed to web development services and fundraising initiatives. Worked on enhancing website functionality using front-end and back-end technologies.",
     link: "https://main--suvidha-foundation-website.netlify.app/",
     image: img4,
   },
+  
 ];
 
 const Project = () => {

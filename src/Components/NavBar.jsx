@@ -38,7 +38,7 @@ const NavBar = ({ title }) => {
             ABOUT
           </h1>
         </NavLink>
-        <NavLink to="/resume" onClick={() => setActive("/resume")}> 
+        {/* <NavLink to="/resume" onClick={() => setActive("/resume")}> 
           <h1 className={`transition-colors duration-300 ${active === "/resume" ? "text-blue-600" : "text-black"}`}>
             RESUME
           </h1>
@@ -52,7 +52,7 @@ const NavBar = ({ title }) => {
           <h1 className={`transition-colors duration-300 ${active === "/contact" ? "text-blue-600" : "text-black"}`}>
             CONTACT
           </h1>
-        </NavLink>
+        </NavLink> */}
       </div>
     </div>
   );
