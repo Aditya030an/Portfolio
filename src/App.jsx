@@ -11,11 +11,20 @@ const App = () => {
   const title = [
     "Web Developer",
     "React.js",
+    "Next.js",
+    "Tailwind CSS",
+    "Framer motion",
     "MERN",
     "Full Stack",
     "JavaScript",
     "Node.js",
     "Express.js",
+    "RESTful APIs",
+    "Authentication",
+    " Authorization",
+    "JWT",
+    "Postman",
+    "Redux Toolkit",
     "MongoDB",
   ];
 
@@ -41,7 +50,7 @@ const App = () => {
         {/* <Route path="/contact" element={<Contect />} /> */}
       </Routes>
       <div>
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );
